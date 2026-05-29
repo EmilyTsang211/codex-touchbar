@@ -14,14 +14,14 @@ Touch Bar:
 
 ## 状态映射
 
-| Codex hook | Touch Bar |
-| --- | --- |
-| `SessionStart` / `Stop` | 🐟 原地摆烂 |
-| `UserPromptSubmit` / `PostToolUse` | 🤯 脑细胞燃烧中 |
-| `PreToolUse` command/shell/exec | 💻 命令行渡劫 |
-| `PreToolUse` patch/edit/write | ✍️ 和 BUG 对线 |
-| `PreToolUse` other tools | 🔨 花式整活 |
-| `PermissionRequest` | 🙋 求大佬放行 |
+| Codex hook | Touch Bar | 按钮底色 | SF Symbol |
+| --- | --- | --- | --- |
+| `SessionStart` / `Stop` | 🐟 原地摆烂 | 绿色 | `sparkles` |
+| `UserPromptSubmit` / `PostToolUse` | 🤯 脑细胞燃烧中 | 紫色 | `brain.head.profile` |
+| `PreToolUse` command/shell/exec | 💻 命令行渡劫 | 橙色 | `terminal.fill` |
+| `PreToolUse` patch/edit/write | ✍️ 和 BUG 对线 | 蓝色 | `pencil.and.outline` |
+| `PreToolUse` other tools | 🔨 花式整活 | 紫色 | `hammer.fill` |
+| `PermissionRequest` | 🙋 求大佬放行 | 红色 | `exclamationmark.triangle.fill` |
 
 ## 系统要求
 
